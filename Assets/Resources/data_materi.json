@@ -1,0 +1,107 @@
+{
+  "data": [
+    {
+      "titile": "Materi 1",
+      "object": [
+        {
+          "title": "Persamaan Data",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Persamaan Data Berdasarkan Mineral"
+            },
+            {
+              "key": "paragraph",
+              "text": "Ini adalah contoh isi paragraf dari materi pertama tentang mineral..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titile": "Materi 2",
+      "object": [
+        {
+          "title": "Bukan Persamaan Data",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Perbedaan Data Berdasarkan Karakteristik"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titile": "Anatomi Sendi",
+      "object": [
+        {
+          "title": "Pengenalan Sendi",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Apa itu Sendi?"
+            },
+            {
+              "key": "paragraph",
+              "text": "Sendi adalah titik di mana dua tulang atau lebih bertemu. Sendi memungkinkan tubuh untuk bergerak dengan fleksibel."
+            },
+            {
+              "key": "paragraph",
+              "text": "Tanpa sendi, tulang-tulang kita tidak akan bisa digerakkan satu sama lain, dan tubuh kita akan menjadi kaku seperti patung."
+            },
+            {
+              "key": "image",
+              "text": "img_sendi_mati"
+            },
+            {
+              "key": "caption",
+              "text": "Gambar 1.2: Sendi Mati pada Tengkorak Manusia"
+            }
+          ]
+        },
+        {
+          "title": "Jenis-Jenis Sendi",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Klasifikasi Sendi"
+            },
+            {
+              "key": "image",
+              "text": "img_klasifikasi_sendi"
+            },
+            {
+              "key": "caption",
+              "text": "Gambar 1.1: Diagram Klasifikasi Sendi"
+            },
+            {
+              "key": "paragraph",
+              "text": "Secara garis besar, sendi dibagi menjadi tiga jenis utama berdasarkan kemampuannya untuk bergerak: Sendi Mati, Sendi Kaku, dan Sendi Gerak."
+            },
+            {
+              "key": "title",
+              "text": "1. Sendi Mati (Sinartrosis)"
+            },
+            {
+              "key": "image",
+              "text": "img_sendi_mati"
+            },
+            {
+              "key": "caption",
+              "text": "Gambar 1.2: Sendi Mati pada Tengkorak Manusia"
+            },
+            {
+              "key": "paragraph",
+              "text": "Gak Jelas"
+            },
+            {
+              "key": "paragraph",
+              "text": "Sendi ini tidak memungkinkan adanya pergerakan sama sekali. Contohnya adalah sendi pada tengkorak manusia."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

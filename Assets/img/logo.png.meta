@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 09c080a31a2749a4fad01096a9fd8d71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8188045287963549036
+    second: Desain tanpa judul(13)_0
+  - first:
+      213: 9059543460335156618
+    second: Desain tanpa judul(13)_1
+  - first:
+      213: -7824138528155716815
+    second: Desain tanpa judul(13)_2
+  - first:
+      213: -786624043563776260
+    second: Desain tanpa judul(13)_3
+  - first:
+      213: 8331542283907082274
+    second: Desain tanpa judul(13)_4
+  - first:
+      213: 7944586348366962473
+    second: Desain tanpa judul(13)_5
+  - first:
+      213: 1942012005638522526
+    second: Desain tanpa judul(13)_6
+  - first:
+      213: 5105576233984437192
+    second: Desain tanpa judul(13)_7
+  - first:
+      213: -6062318391364916241
+    second: Desain tanpa judul(13)_8
+  - first:
+      213: -477972277104392753
+    second: Desain tanpa judul(13)_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 650
+        width: 750
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dd0e9aec7c1a170800000000000000
+      internalID: 8188045287963549036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 925
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d7d7417c6f9bd70800000000000000
+      internalID: 9059543460335156618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 913
+        width: 225
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133b4d376731b6390800000000000000
+      internalID: -7824138528155716815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_3
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 788
+        width: 860
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6899f99995515f0800000000000000
+      internalID: -786624043563776260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_4
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 648
+        width: 751
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228ad6790959f9370800000000000000
+      internalID: 8331542283907082274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_5
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 913
+        width: 229
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f94dd0137d04e60800000000000000
+      internalID: 7944586348366962473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 558
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96c0a141a963fa10800000000000000
+      internalID: 1942012005638522526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 466
+        width: 809
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cba158c886aad640800000000000000
+      internalID: 5105576233984437192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 463
+        width: 803
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb6067ea815edba0800000000000000
+      internalID: -6062318391364916241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desain tanpa judul(13)_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 298
+        width: 1805
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc545b21fb6ed59f0800000000000000
+      internalID: -477972277104392753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Desain tanpa judul(13)_0: 8188045287963549036
+      Desain tanpa judul(13)_1: 9059543460335156618
+      Desain tanpa judul(13)_2: -7824138528155716815
+      Desain tanpa judul(13)_3: -786624043563776260
+      Desain tanpa judul(13)_4: 8331542283907082274
+      Desain tanpa judul(13)_5: 7944586348366962473
+      Desain tanpa judul(13)_6: 1942012005638522526
+      Desain tanpa judul(13)_7: 5105576233984437192
+      Desain tanpa judul(13)_8: -6062318391364916241
+      Desain tanpa judul(13)_9: -477972277104392753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
