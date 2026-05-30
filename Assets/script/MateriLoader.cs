@@ -9,7 +9,9 @@ public class MateriLoader : MonoBehaviour
 {
     [Header("UI List References")]
     [SerializeField] private GameObject prefabTombolMateri;
-    [SerializeField] private Transform containerListMateri; 
+    [SerializeField] private Transform containerListMateri;
+    [Tooltip("Panel utama yang berisi daftar list materi. Akan disembunyikan saat materi dipilih dan ditampilkan kembali saat kembali.")]
+    [SerializeField] private GameObject panelListMateri; // Panel list materi yang akan di-toggle
 
     [Header("Halaman Baca References")]
     // 1. KITA UBAH VARIABEL INI AGAR MENAMPUNG INDUK TERLUAR (panel_baca)
@@ -56,6 +58,12 @@ public class MateriLoader : MonoBehaviour
         if (panelSelamatBerhasil != null)
         {
             panelSelamatBerhasil.SetActive(false);
+        }
+
+        // Pastikan panel list materi tampil saat pertama kali
+        if (panelListMateri != null)
+        {
+            panelListMateri.SetActive(true);
         }
 
         MemuatDataJSON();
@@ -132,6 +140,12 @@ public class MateriLoader : MonoBehaviour
         // Sembunyikan tombol selesai dan panel berhasil di awal materi baru
         if (tombolSelesai != null) tombolSelesai.SetActive(false);
         if (panelSelamatBerhasil != null) panelSelamatBerhasil.SetActive(false);
+
+        // LOGIKA BARU: Sembunyikan panel list materi saat materi dipilih
+        if (panelListMateri != null)
+        {
+            panelListMateri.SetActive(false);
+        }
 
         if (materiAktif.daftarHalaman != null && materiAktif.daftarHalaman.Count > 0)
         {
@@ -340,6 +354,12 @@ public class MateriLoader : MonoBehaviour
             {
                 SettingsManager.Instance.MuteMusic(false);
             }
+        }
+
+        // LOGIKA BARU: Tampilkan kembali panel list materi saat panel baca ditutup
+        if (panelListMateri != null)
+        {
+            panelListMateri.SetActive(true);
         }
     }
 }

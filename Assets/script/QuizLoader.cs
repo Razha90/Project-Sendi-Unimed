@@ -253,7 +253,9 @@ public class QuizLoader : MonoBehaviour
         ScrollRect scrollRect = containerPilihanJawaban.GetComponentInParent<ScrollRect>();
         if (scrollRect != null)
         {
-            Canvas.ForceUpdateCanvases();
+            // Hanya rebuild layout container lokal, bukan seluruh canvas
+            // agar posisi button di luar container tidak ikut bergeser
+            LayoutRebuilder.ForceRebuildLayoutImmediate(containerPilihanJawaban as RectTransform);
             scrollRect.verticalNormalizedPosition = 1f;
         }
     }
