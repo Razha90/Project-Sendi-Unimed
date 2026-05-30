@@ -1,0 +1,324 @@
+{
+  "data": [
+    {
+      "title": "Algoritma dan Pemrograman Dasar",
+      "daftarPertanyaan": [
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Apa yang dimaksud dengan algoritma?"
+            }
+          ],
+          "pilihan": [
+            "Bahasa pemrograman",
+            "Kumpulan perangkat keras",
+            "Langkah-langkah sistematis untuk menyelesaikan masalah",
+            "Program komputer"
+          ],
+          "jawabanBenarIndex": 2
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Berikut yang termasuk ciri algoritma adalah..."
+            }
+          ],
+          "pilihan": [
+            "Tidak memiliki tujuan",
+            "Langkah-langkahnya jelas dan berurutan",
+            "Selalu menggunakan komputer",
+            "Tidak memiliki hasil akhir"
+          ],
+          "jawabanBenarIndex": 1
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Mengapa algoritma penting dalam pemrograman?"
+            }
+          ],
+          "pilihan": [
+            "Agar komputer menjadi lebih mahal",
+            "Agar program lebih sulit dibuat",
+            "Agar penyelesaian masalah menjadi terstruktur",
+            "Agar tidak perlu menggunakan logika"
+          ],
+          "jawabanBenarIndex": 2
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Apa perbedaan utama antara algoritma dan program?"
+            }
+          ],
+          "pilihan": [
+            "Algoritma adalah langkah penyelesaian, program adalah implementasinya",
+            "Algoritma menggunakan listrik, program tidak",
+            "Program lebih sederhana dari algoritma",
+            "Algoritma hanya digunakan di matematika"
+          ],
+          "jawabanBenarIndex": 0
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Urutan yang tepat dalam membuat program adalah..."
+            }
+          ],
+          "pilihan": [
+            "Coding -> Analisis -> Algoritma",
+            "Algoritma -> Analisis -> Coding",
+            "Analisis -> Algoritma -> Coding",
+            "Coding -> Testing -> Algoritma"
+          ],
+          "jawabanBenarIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Contoh Algoritma dalam Kehidupan",
+      "daftarPertanyaan": [
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Contoh algoritma dalam kehidupan sehari-hari adalah..."
+            }
+          ],
+          "pilihan": [
+            "Bermain tanpa aturan",
+            "Membuat mie instan dengan langkah-langkah tertentu",
+            "Tidur sepanjang hari",
+            "Menonton televisi"
+          ],
+          "jawabanBenarIndex": 1
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Mengapa langkah algoritma harus berurutan?"
+            }
+          ],
+          "pilihan": [
+            "Agar hasil sesuai tujuan",
+            "Agar terlihat rumit",
+            "Agar komputer cepat rusak",
+            "Agar program tidak selesai"
+          ],
+          "jawabanBenarIndex": 0
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Jika salah satu langkah algoritma dilewati, maka kemungkinan yang terjadi adalah..."
+            }
+          ],
+          "pilihan": [
+            "Hasil tetap sempurna",
+            "Tidak memengaruhi hasil",
+            "Tujuan algoritma dapat gagal",
+            "Program menjadi lebih cepat"
+          ],
+          "jawabanBenarIndex": 2
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Langkah pertama saat mencuci tangan yang benar adalah..."
+            }
+          ],
+          "pilihan": [
+            "Mengeringkan tangan",
+            "Membilas tangan dengan air",
+            "Memakai sarung tangan",
+            "Menutup keran"
+          ],
+          "jawabanBenarIndex": 1
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Berikut yang termasuk algoritma kehidupan sehari-hari adalah..."
+            }
+          ],
+          "pilihan": [
+            "Menyalakan motor tanpa kunci",
+            "Memasak nasi dengan urutan langkah yang benar",
+            "Berlari tanpa arah",
+            "Belajar tanpa tujuan"
+          ],
+          "jawabanBenarIndex": 1
+        }
+      ]
+    },
+    {
+      "title": "Algoritma Urutan Langkah",
+      "daftarPertanyaan": [
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Apa yang dimaksud dengan sequence dalam algoritma?"
+            }
+          ],
+          "pilihan": [
+            "Percabangan kondisi",
+            "Pengulangan langkah",
+            "Urutan langkah secara beraturan",
+            "Penghapusan data"
+          ],
+          "jawabanBenarIndex": 2
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Sequence disebut struktur dasar algoritma karena..."
+            }
+          ],
+          "pilihan": [
+            "Semua algoritma memiliki urutan langkah",
+            "Tidak membutuhkan aturan",
+            "Tidak memiliki tujuan",
+            "Tidak digunakan dalam pemrograman"
+          ],
+          "jawabanBenarIndex": 0
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Contoh sequence di sekolah adalah..."
+            }
+          ],
+          "pilihan": [
+            "Masuk kelas lalu mengikuti pelajaran",
+            "Jika hujan membawa payung",
+            "Mengulang menulis nama",
+            "Bermain game sepanjang waktu"
+          ],
+          "jawabanBenarIndex": 0
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Langkah yang benar saat login media sosial adalah..."
+            }
+          ],
+          "pilihan": [
+            "Membuka aplikasi -> memasukkan username -> memasukkan password -> login",
+            "Login -> membuka aplikasi -> password",
+            "Password -> keluar aplikasi -> login",
+            "Membuka aplikasi -> logout -> login"
+          ],
+          "jawabanBenarIndex": 0
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Manakah yang termasuk contoh sequence?"
+            }
+          ],
+          "pilihan": [
+            "Jika hujan maka membawa payung",
+            "Mengulang mengetik nama sebanyak 5 kali",
+            "Menyalakan komputer lalu membuka aplikasi",
+            "Memilih menu berdasarkan kondisi"
+          ],
+          "jawabanBenarIndex": 2
+        }
+      ]
+    },
+    {
+      "title": "Percabangan dan Perulangan",
+      "daftarPertanyaan": [
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Apa yang dimaksud dengan percabangan?"
+            }
+          ],
+          "pilihan": [
+            "Pengulangan langkah",
+            "Pemilihan tindakan berdasarkan kondisi",
+            "Urutan langkah biasa",
+            "Penghapusan program"
+          ],
+          "jawabanBenarIndex": 1
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Contoh percabangan dalam kehidupan sehari-hari adalah..."
+            }
+          ],
+          "pilihan": [
+            "Jika lapar maka makan",
+            "Menulis nama 10 kali",
+            "Menyalakan komputer",
+            "Membuka buku"
+          ],
+          "jawabanBenarIndex": 0
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Apa fungsi perulangan dalam pemrograman?"
+            }
+          ],
+          "pilihan": [
+            "Menghapus data",
+            "Mengulang perintah tertentu secara otomatis",
+            "Mematikan program",
+            "Mengganti bahasa pemrograman"
+          ],
+          "jawabanBenarIndex": 1
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Perbedaan utama perulangan for dan while adalah..."
+            }
+          ],
+          "pilihan": [
+            "For digunakan tanpa kondisi",
+            "While selalu memiliki batas pasti",
+            "For biasanya digunakan ketika jumlah pengulangan diketahui",
+            "While tidak digunakan dalam pemrograman"
+          ],
+          "jawabanBenarIndex": 2
+        },
+        {
+          "teksPertanyaan": [
+            {
+              "key": "paragraph",
+              "text": "Manakah contoh penggunaan percabangan dan perulangan sekaligus?"
+            }
+          ],
+          "pilihan": [
+            "Menampilkan angka 1 sampai 10 tanpa kondisi",
+            "Mengecek nilai siswa lalu mengulang proses untuk semua siswa",
+            "Membuka aplikasi satu kali",
+            "Menyalakan komputer tanpa proses"
+          ],
+          "jawabanBenarIndex": 1
+        }
+      ]
+    }
+  ]
+}

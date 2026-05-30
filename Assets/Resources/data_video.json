@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "title": "Algoritma dan Pemrograman Dasar",
+      "videoPath": "vid/algoritma_dan_pemrograman_dasar"
+    },
+    {
+      "title": "Algoritma Dalam Kehidupan",
+      "videoPath": "vid/algoritma_urutan_langkah"
+    },
+    {
+      "title": "Algoritma Urutan Langkah",
+      "videoPath": "vid/contoh_sehari-hari"
+    },
+    {
+      "title": "Percabangan dan Perulangan",
+      "videoPath": "vid/percabangan_dan_perulangan"
+    }
+  ]
+}

@@ -40,6 +40,7 @@ public class MateriLoader : MonoBehaviour
     [SerializeField] private GameObject prefabParagraphKonten;
     [SerializeField] private GameObject prefabGambarKonten; // Prefab untuk Gambar
     [SerializeField] private GameObject prefabCaptionKonten; // Prefab khusus untuk Caption
+    [SerializeField] private GameObject prefabListKonten; // Prefab khusus untuk List
 
     private RootMateriData dataBesarMateri;
 
@@ -111,6 +112,14 @@ public class MateriLoader : MonoBehaviour
 
             Button btn = tombolBaru.GetComponent<Button>();
             btn.onClick.AddListener(() => AmbilHalamanPertama(materiSaatIni));
+        }
+
+        // Pastikan tampilan list materi kembali ke paling atas
+        ScrollRect scrollRect = containerListMateri.GetComponentInParent<ScrollRect>();
+        if (scrollRect != null)
+        {
+            Canvas.ForceUpdateCanvases();
+            scrollRect.verticalNormalizedPosition = 1f;
         }
     }
 
@@ -282,6 +291,19 @@ public class MateriLoader : MonoBehaviour
                     Debug.LogError("Objek anak bernama 'ui_image' tidak ditemukan di dalam prefab!");
                 }
             }
+            else if (konten.key == "list")
+            {
+                GameObject objList = Instantiate(prefabListKonten, containerKontenDinamis);
+                objList.GetComponent<TMP_Text>().text = konten.text;
+            }
+        }
+
+        // Pastikan tampilan halaman kembali ke paling atas
+        ScrollRect scrollRect = containerKontenDinamis.GetComponentInParent<ScrollRect>();
+        if (scrollRect != null)
+        {
+            Canvas.ForceUpdateCanvases();
+            scrollRect.verticalNormalizedPosition = 1f;
         }
     }
 

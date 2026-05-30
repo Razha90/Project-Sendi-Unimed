@@ -1,103 +1,404 @@
 {
   "data": [
     {
-      "titile": "Materi 1",
+      "titile": "Algoritma & Pemrograman Dasar",
       "object": [
         {
-          "title": "Persamaan Data",
+          "title": "1. Pengenalan Algoritma",
           "isi": [
             {
               "key": "title",
-              "text": "Persamaan Data Berdasarkan Mineral"
+              "text": "Apa itu Algoritma dan Pemrograman?"
             },
             {
               "key": "paragraph",
-              "text": "Ini adalah contoh isi paragraf dari materi pertama tentang mineral..."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titile": "Materi 2",
-      "object": [
-        {
-          "title": "Bukan Persamaan Data",
-          "isi": [
-            {
-              "key": "title",
-              "text": "Perbedaan Data Berdasarkan Karakteristik"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titile": "Anatomi Sendi",
-      "object": [
-        {
-          "title": "Pengenalan Sendi",
-          "isi": [
-            {
-              "key": "title",
-              "text": "Apa itu Sendi?"
+              "text": "<line-height=115%><space=2em>Algoritma dan pemrograman merupakan dua hal yang sangat penting dalam dunia informatika. Ketika seseorang ingin membuat sebuah aplikasi, website, game, atau sistem komputer lainnya, maka proses pertama yang harus dipahami adalah bagaimana cara menyelesaikan masalah secara sistematis. Dalam kehidupan sehari-hari, manusia sebenarnya sering menggunakan konsep algoritma tanpa menyadarinya. Contohnya ketika seseorang membuat mie instan, menggunakan mesin ATM, menyalakan komputer, atau melakukan login media sosial. Semua kegiatan tersebut dilakukan dengan mengikuti langkah-langkah tertentu secara berurutan agar tujuan dapat tercapai dengan benar."
             },
             {
               "key": "paragraph",
-              "text": "Sendi adalah titik di mana dua tulang atau lebih bertemu. Sendi memungkinkan tubuh untuk bergerak dengan fleksibel."
+              "text": "<space=2em>Dalam dunia komputer, algoritma menjadi dasar utama sebelum program dibuat. Komputer tidak dapat berpikir sendiri seperti manusia. Komputer hanya menjalankan instruksi yang diberikan oleh pengguna atau programmer. Oleh karena itu, setiap langkah harus disusun secara jelas dan logis agar komputer dapat memahami apa yang harus dilakukan. Jika instruksi tidak jelas atau tidak berurutan, maka program dapat mengalami kesalahan atau tidak berjalan sesuai tujuan. Inilah alasan mengapa algoritma sangat penting dipelajari sebelum mempelajari bahasa pemrograman."
             },
             {
               "key": "paragraph",
-              "text": "Tanpa sendi, tulang-tulang kita tidak akan bisa digerakkan satu sama lain, dan tubuh kita akan menjadi kaku seperti patung."
-            },
-            {
-              "key": "image",
-              "text": "img_sendi_mati"
-            },
-            {
-              "key": "caption",
-              "text": "Gambar 1.2: Sendi Mati pada Tengkorak Manusia"
+              "text": "<space=2em>Secara umum, algoritma dapat diartikan sebagai serangkaian langkah-langkah logis dan sistematis yang digunakan untuk menyelesaikan suatu masalah. Langkah-langkah tersebut disusun dari awal hingga akhir secara berurutan sehingga menghasilkan solusi tertentu. Algoritma bukan hanya digunakan dalam komputer, tetapi juga dalam berbagai aktivitas manusia sehari-hari. Misalnya ketika seseorang ingin memasak nasi menggunakan rice cooker, terdapat langkah-langkah tertentu yang harus dilakukan, mulai dari mencuci beras, menambahkan air, menekan tombol memasak, hingga menunggu nasi matang. Jika salah satu langkah dilewati, maka hasil yang diperoleh mungkin tidak sesuai harapan."
             }
           ]
         },
         {
-          "title": "Jenis-Jenis Sendi",
+          "title": "2. Sejarah & Karakteristik",
           "isi": [
             {
               "key": "title",
-              "text": "Klasifikasi Sendi"
-            },
-            {
-              "key": "image",
-              "text": "img_klasifikasi_sendi"
-            },
-            {
-              "key": "caption",
-              "text": "Gambar 1.1: Diagram Klasifikasi Sendi"
+              "text": "Asal Usul dan Ciri Algoritma"
             },
             {
               "key": "paragraph",
-              "text": "Secara garis besar, sendi dibagi menjadi tiga jenis utama berdasarkan kemampuannya untuk bergerak: Sendi Mati, Sendi Kaku, dan Sendi Gerak."
+              "text": "<line-height=115%><space=2em>Istilah algoritma sendiri berasal dari nama seorang ilmuwan Muslim bernama Muhammad ibn Musa al-Khwarizmi. Beliau merupakan seorang ahli matematika yang memberikan banyak kontribusi dalam bidang perhitungan dan logika matematika. Dari nama Al-Khwarizmi inilah muncul istilah algorithm atau algoritma. Dalam perkembangan teknologi modern, algoritma menjadi fondasi utama dalam pengembangan perangkat lunak, kecerdasan buatan, mesin pencarian internet, media sosial, dan berbagai teknologi digital lainnya. Suatu algoritma yang baik harus memiliki beberapa karakteristik penting. Salah satu karakteristik utama algoritma adalah memiliki tujuan yang jelas. Setiap algoritma dibuat untuk menyelesaikan masalah tertentu atau mencapai hasil tertentu. Tanpa tujuan yang jelas, langkah-langkah yang dibuat akan menjadi tidak terarah. Misalnya, algoritma untuk menghitung luas persegi memiliki tujuan untuk mendapatkan hasil luas berdasarkan nilai sisi yang dimasukkan. Oleh karena itu, setiap langkah yang disusun harus mendukung tercapainya tujuan tersebut."
             },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain memiliki tujuan yang jelas, algoritma juga harus memiliki langkah-langkah yang runtut dan mudah dipahami. Instruksi dalam algoritma tidak boleh ambigu atau membingungkan. Komputer membutuhkan instruksi yang detail dan spesifik agar dapat menjalankan proses dengan benar. Sebagai contoh, instruksi seperti 'masukkan angka secukupnya' dianggap kurang jelas karena tidak menjelaskan berapa banyak angka yang harus dimasukkan. Sebaliknya, instruksi seperti 'masukkan tiga angka' lebih mudah dipahami dan dapat diproses dengan lebih baik. Algoritma juga harus memiliki input dan output. Input adalah data atau informasi yang dimasukkan ke dalam proses algoritma. Contohnya dapat berupa angka, nama pengguna, password, atau data lainnya. Setelah data diproses melalui langkah-langkah tertentu, algoritma akan menghasilkan output berupa hasil akhir. Dalam program komputer, hubungan antara input dan output sangat penting karena program pada dasarnya dibuat untuk mengolah data menjadi informasi yang berguna bagi pengguna."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Karakteristik lain dari algoritma adalah memiliki akhir atau berhenti setelah tujuan tercapai. Sebuah algoritma tidak boleh berjalan terus-menerus tanpa henti karena dapat menyebabkan program mengalami error atau crash. Oleh sebab itu, setiap algoritma harus memiliki kondisi akhir yang jelas. Dalam pemrograman, hal ini sangat penting terutama ketika menggunakan perulangan atau proses pengolahan data dalam jumlah besar. Dalam dunia pemrograman, algoritma berfungsi sebagai rancangan awal sebelum proses coding dilakukan. Programmer biasanya menyusun solusi terlebih dahulu dalam bentuk algoritma agar proses pembuatan program menjadi lebih mudah. Setelah algoritma selesai dibuat, langkah berikutnya adalah menerjemahkan algoritma tersebut ke dalam bahasa pemrograman seperti Python, Java, C++, atau JavaScript. Proses penerjemahan algoritma menjadi kode program inilah yang disebut coding."
+            }
+          ]
+        },
+        {
+          "title": "3. Algoritma vs Program",
+          "isi": [
             {
               "key": "title",
-              "text": "1. Sendi Mati (Sinartrosis)"
-            },
-            {
-              "key": "image",
-              "text": "img_sendi_mati"
-            },
-            {
-              "key": "caption",
-              "text": "Gambar 1.2: Sendi Mati pada Tengkorak Manusia"
+              "text": "Hubungan dan Tahapan Pembuatan"
             },
             {
               "key": "paragraph",
-              "text": "Gak Jelas"
+              "text": "<line-height=115%><space=2em>Hubungan antara algoritma dan program sangat erat, tetapi keduanya memiliki perbedaan. Algoritma merupakan konsep atau langkah penyelesaian masalah, sedangkan program adalah implementasi algoritma menggunakan bahasa komputer. Algoritma dapat ditulis menggunakan bahasa biasa, pseudocode, atau flowchart. Sementara itu, program ditulis menggunakan sintaks bahasa pemrograman tertentu agar dapat dijalankan oleh komputer. Dalam pengembangan program komputer, terdapat beberapa tahapan yang biasanya dilakukan oleh programmer. Tahap pertama adalah analisis masalah. Pada tahap ini, programmer mencoba memahami masalah yang ingin diselesaikan. Programmer harus mengetahui tujuan program, data yang diperlukan, proses yang akan dilakukan, serta hasil yang diharapkan. Tahap analisis sangat penting karena kesalahan dalam memahami masalah dapat menyebabkan program tidak berjalan sesuai kebutuhan pengguna."
             },
             {
               "key": "paragraph",
-              "text": "Sendi ini tidak memungkinkan adanya pergerakan sama sekali. Contohnya adalah sendi pada tengkorak manusia."
+              "text": "<space=2em>Setelah masalah dipahami, langkah berikutnya adalah menyusun algoritma. Algoritma digunakan untuk menentukan langkah-langkah penyelesaian masalah secara sistematis. Penyusunan algoritma membantu programmer berpikir secara logis sebelum mulai menulis kode program. Algoritma yang baik akan mempermudah proses coding dan mengurangi kemungkinan terjadinya kesalahan program."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Tahap selanjutnya adalah coding. Pada tahap ini, algoritma diterjemahkan ke dalam bahasa pemrograman tertentu. Programmer mulai menulis kode program menggunakan software atau editor pemrograman. Proses coding membutuhkan ketelitian karena kesalahan kecil seperti salah penulisan simbol atau sintaks dapat menyebabkan program tidak berjalan dengan baik."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Setelah coding selesai dilakukan, program harus diuji melalui proses testing. Testing bertujuan untuk memastikan bahwa semua fungsi program berjalan sesuai tujuan. Pada tahap ini programmer mencari bug, error, atau kesalahan logika yang mungkin masih terdapat di dalam program. Jika ditemukan kesalahan, maka program akan diperbaiki kembali hingga dapat berjalan dengan baik."
+            },
+            {
+              "key": "paragraph",
+              "text": "<align=center>Analisis Masalah → Menyusun Algoritma → Coding → Testing"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Setelah program berhasil diuji dan digunakan, biasanya dilakukan tahap maintenance atau pemeliharaan. Pada tahap ini program diperbaiki, dikembangkan, atau ditambahkan fitur baru agar tetap sesuai dengan kebutuhan pengguna. Dalam dunia teknologi, maintenance sangat penting karena perkembangan kebutuhan pengguna dan teknologi terus berubah dari waktu ke waktu."
+            }
+          ]
+        },
+        {
+          "title": "4. Algoritma di Era Digital",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Penerapan & Berpikir Komputasional"
+            },
+            {
+              "key": "paragraph",
+              "text": "<line-height=115%><space=2em>Algoritma tidak hanya penting dalam dunia pemrograman, tetapi juga dalam perkembangan teknologi modern. Saat ini hampir semua aplikasi digital menggunakan algoritma untuk menjalankan sistemnya. Media sosial menggunakan algoritma untuk menentukan konten yang muncul kepada pengguna. Mesin pencarian seperti Google menggunakan algoritma untuk menentukan hasil pencarian yang paling relevan. Aplikasi navigasi menggunakan algoritma untuk menentukan rute tercepat. Bahkan kecerdasan buatan atau artificial intelligence juga bekerja menggunakan berbagai jenis algoritma yang kompleks."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain itu, mempelajari algoritma juga membantu seseorang mengembangkan kemampuan berpikir komputasional atau computational thinking. Berpikir komputasional adalah kemampuan menyelesaikan masalah secara logis, sistematis, dan terstruktur. Kemampuan ini sangat berguna tidak hanya dalam informatika, tetapi juga dalam kehidupan sehari-hari karena melatih seseorang untuk berpikir lebih teratur dalam menghadapi suatu masalah."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dari seluruh pembahasan tersebut dapat dipahami bahwa algoritma merupakan pondasi utama dalam dunia informatika dan pemrograman. Dengan memahami algoritma, seseorang dapat belajar menyusun solusi masalah secara terstruktur sebelum membuat program komputer. Pemahaman algoritma yang baik akan membantu proses pemrograman menjadi lebih mudah, lebih efisien, dan menghasilkan program yang lebih terorganisir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titile": "Contoh Algoritma dalam Kehidupan",
+      "object": [
+        {
+          "title": "1. Konsep Dasar Sehari-hari",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Algoritma di Sekitar Kita"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam kehidupan sehari-hari, manusia selalu melakukan berbagai aktivitas dengan mengikuti langkah-langkah tertentu. Tanpa disadari, langkah-langkah tersebut sebenarnya merupakan bentuk sederhana dari <b>algoritma</b>."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Algoritma tidak hanya digunakan dalam dunia komputer atau pemrograman, tetapi juga digunakan dalam berbagai kegiatan sehari-hari seperti memasak, mencuci tangan, menggunakan ATM, mengendarai kendaraan, hingga menyalakan televisi. Oleh karena itu, memahami algoritma sejak dini sangat penting karena membantu seseorang berpikir lebih sistematis, logis, dan terstruktur dalam menyelesaikan suatu pekerjaan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Algoritma dapat dipahami sebagai urutan langkah-langkah yang dilakukan secara sistematis untuk mencapai tujuan tertentu. Dalam kehidupan sehari-hari, seseorang biasanya melakukan suatu pekerjaan berdasarkan urutan tertentu agar hasil yang diperoleh sesuai dengan yang diharapkan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Misalnya ketika membuat mie instan, seseorang tidak bisa langsung memakan mie sebelum direbus terlebih dahulu. Ada tahapan yang harus dilakukan secara runtut mulai dari menyiapkan air, merebus mie, mencampurkan bumbu, hingga menyajikan makanan tersebut. Proses inilah yang disebut sebagai algoritma dalam kehidupan sehari-hari."
+            }
+          ]
+        },
+        {
+          "title": "2. Contoh: Membuat Mie Instan",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Pentingnya Urutan Langkah"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Contoh algoritma sederhana yang sering ditemui adalah proses membuat mie instan. Pertama, seseorang harus menyiapkan panci dan air terlebih dahulu. Setelah itu air dipanaskan hingga mendidih. Selanjutnya mie dimasukkan ke dalam air panas dan dimasak beberapa menit hingga matang. Setelah matang, mie dicampurkan dengan bumbu lalu diaduk hingga merata sebelum akhirnya siap disajikan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Jika salah satu langkah tersebut dilewati, maka hasil yang diperoleh bisa berbeda atau bahkan gagal. Misalnya jika mie tidak direbus terlebih dahulu, maka mie tidak akan matang dan tidak bisa dimakan dengan baik. Hal tersebut menunjukkan bahwa algoritma selalu berkaitan dengan urutan langkah yang benar."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Langkah-langkah dalam algoritma harus dilakukan secara berurutan karena setiap proses saling berhubungan satu sama lain. Jika urutannya salah, maka tujuan akhir dapat terganggu. Dalam pemrograman komputer, hal ini sangat penting karena komputer bekerja berdasarkan instruksi yang diberikan secara runtut. Komputer tidak dapat memahami instruksi yang acak atau tidak jelas. Oleh sebab itu, penyusunan langkah secara teratur menjadi dasar penting dalam algoritma."
+            }
+          ]
+        },
+        {
+          "title": "3. Contoh: Mencuci Tangan",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Bekerja Efektif dan Terarah"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain membuat mie instan, contoh algoritma lainnya dapat ditemukan pada kegiatan mencuci tangan. Mencuci tangan terlihat seperti aktivitas sederhana, tetapi sebenarnya memiliki urutan langkah tertentu agar tangan benar-benar bersih."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Proses mencuci tangan biasanya dimulai dengan membilas tangan menggunakan air. Setelah itu sabun digunakan untuk membersihkan seluruh permukaan tangan, kemudian tangan digosok beberapa detik, dibilas kembali menggunakan air bersih, lalu dikeringkan menggunakan tisu atau handuk."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Jika langkah dilakukan secara tidak benar atau ada tahapan yang dilewati, maka kebersihan tangan menjadi kurang maksimal. Dari contoh tersebut dapat dipahami bahwa algoritma membantu manusia melakukan pekerjaan dengan lebih efektif dan terarah."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam kehidupan sehari-hari, seseorang sering menggunakan algoritma untuk memastikan suatu pekerjaan dapat diselesaikan dengan benar. Tanpa langkah yang terstruktur, pekerjaan menjadi lebih sulit dan hasilnya tidak sesuai harapan. Oleh karena itu, algoritma tidak hanya penting dalam dunia informatika, tetapi juga penting dalam aktivitas manusia sehari-hari."
+            }
+          ]
+        },
+        {
+          "title": "4. Hubungan dengan Pemrograman",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Algoritma di Era Digital"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Pada pemrograman komputer, konsep algoritma kehidupan sehari-hari sebenarnya sama dengan proses penyusunan program. Sebelum membuat kode program, <i>programmer</i> harus menentukan langkah-langkah penyelesaian masalah terlebih dahulu. Komputer akan menjalankan setiap instruksi sesuai urutan yang diberikan. Jika terdapat kesalahan urutan atau ada langkah yang terlewat, maka program dapat menghasilkan <i>error</i> atau hasil yang tidak sesuai tujuan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Sebagai contoh, ketika seseorang ingin membuat program <i>login</i> akun, maka terdapat langkah-langkah tertentu yang harus dilakukan. Program harus meminta pengguna memasukkan <i>username</i> dan <i>password</i> terlebih dahulu. Setelah data dimasukkan, sistem akan memeriksa apakah data sesuai dengan <i>database</i>. Jika benar maka pengguna berhasil masuk, tetapi jika salah maka sistem menampilkan pesan kesalahan. Semua proses tersebut merupakan bentuk algoritma yang diterapkan dalam dunia pemrograman."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain itu, algoritma juga melatih kemampuan berpikir logis dan sistematis. Ketika seseorang menyusun langkah-langkah penyelesaian masalah, maka secara tidak langsung ia sedang belajar bagaimana cara berpikir secara terstruktur. Kemampuan ini disebut sebagai <b><i>computational thinking</i></b> atau berpikir komputasional. Kemampuan berpikir komputasional sangat penting di era digital karena membantu seseorang menyelesaikan masalah dengan lebih efektif dan efisien."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam kehidupan modern, algoritma digunakan hampir di semua bidang teknologi. Media sosial menggunakan algoritma untuk menentukan konten yang muncul kepada pengguna. Aplikasi navigasi menggunakan algoritma untuk menentukan rute tercepat. Mesin pencarian seperti Google menggunakan algoritma untuk menampilkan hasil pencarian yang paling relevan. Bahkan aplikasi belanja <i>online</i> menggunakan algoritma untuk merekomendasikan produk kepada pengguna berdasarkan aktivitas sebelumnya."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Pemahaman tentang algoritma kehidupan sehari-hari menjadi dasar penting sebelum mempelajari algoritma dalam pemrograman komputer yang lebih kompleks. Dengan memahami contoh-contoh sederhana di sekitar kehidupan manusia, siswa akan lebih mudah memahami bagaimana komputer bekerja berdasarkan instruksi yang diberikan. Oleh sebab itu, pembelajaran algoritma sering dimulai dari aktivitas sehari-hari agar konsepnya lebih mudah dipahami oleh peserta didik."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titile": "Algoritma urutan langkah (sequence)",
+      "object": [
+        {
+          "title": "1. Pengertian Sequence",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Apa itu Sequence?"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam dunia algoritma dan pemrograman, terdapat beberapa struktur dasar yang digunakan untuk menyusun langkah penyelesaian masalah. Salah satu struktur yang paling dasar adalah sequence atau urutan langkah. Struktur sequence merupakan bentuk algoritma yang langkah-langkahnya dijalankan secara berurutan dari awal hingga akhir tanpa adanya percabangan maupun pengulangan. Semua instruksi dijalankan satu per satu sesuai urutan yang telah ditentukan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Sequence disebut sebagai struktur dasar algoritma karena hampir semua program komputer menggunakan urutan langkah dalam proses kerjanya. Sebelum komputer melakukan proses yang lebih kompleks seperti percabangan atau perulangan, komputer terlebih dahulu menjalankan instruksi secara berurutan. Oleh sebab itu, pemahaman tentang sequence menjadi pondasi utama sebelum mempelajari struktur algoritma lainnya."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam kehidupan sehari-hari, manusia sebenarnya sering menggunakan konsep sequence tanpa disadari. Misalnya ketika seseorang pergi ke sekolah, terdapat urutan kegiatan yang biasanya dilakukan secara runtut. Seseorang bangun tidur terlebih dahulu, mandi, memakai seragam, sarapan, lalu berangkat ke sekolah. Semua langkah tersebut dilakukan secara berurutan agar tujuan dapat tercapai dengan baik. Jika salah satu langkah dilewati atau urutannya diubah, maka aktivitas dapat terganggu."
+            }
+          ]
+        },
+        {
+          "title": "2. Sequence di Kehidupan Nyata",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Aktivitas Berurutan"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Konsep sequence juga dapat ditemukan pada aktivitas di lingkungan sekolah. Ketika siswa masuk ke kelas, mereka biasanya duduk di tempat masing-masing terlebih dahulu, kemudian guru mulai menjelaskan materi pelajaran, setelah itu siswa mendengarkan dan mencatat materi yang diberikan. Urutan kegiatan tersebut merupakan contoh sederhana dari sequence karena dilakukan secara teratur dan berurutan dari awal hingga akhir."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam algoritma, sequence memiliki karakteristik bahwa setiap langkah hanya akan dijalankan satu kali sesuai urutan yang telah ditentukan. Struktur ini berbeda dengan percabangan yang menggunakan kondisi tertentu, serta berbeda dengan perulangan yang menjalankan langkah secara berulang. Pada sequence, semua proses berjalan lurus tanpa memilih kondisi tertentu maupun mengulang proses sebelumnya."
+            }
+          ]
+        },
+        {
+          "title": "3. Sequence pada Komputer",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Penerapan dalam Sistem Digital"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Contoh lain dari sequence dapat dilihat pada proses login media sosial. Ketika seseorang ingin masuk ke akun media sosial, terdapat langkah-langkah tertentu yang harus dilakukan secara berurutan. Pengguna harus membuka aplikasi terlebih dahulu, kemudian memasukkan username, lalu memasukkan password, dan akhirnya menekan tombol login. Jika urutan tersebut tidak dilakukan dengan benar, maka proses login dapat gagal. Misalnya jika pengguna mencoba login sebelum memasukkan password, maka sistem tidak dapat memproses permintaan tersebut. Hal tersebut menunjukkan bahwa sequence sangat bergantung pada urutan langkah yang benar."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam pemrograman komputer, komputer akan menjalankan instruksi sesuai dengan urutan penulisan program. Jika urutan instruksi salah, maka hasil yang diperoleh juga dapat berbeda atau bahkan menyebabkan program error. Oleh karena itu, programmer harus memahami bagaimana menyusun sequence dengan baik agar program dapat berjalan sesuai tujuan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain pada media sosial, konsep sequence juga sering digunakan ketika menyalakan komputer. Pertama, pengguna menekan tombol power untuk menghidupkan komputer. Setelah komputer menyala, sistem operasi mulai dijalankan. Kemudian pengguna membuka aplikasi tertentu untuk digunakan. Semua proses tersebut dilakukan secara berurutan dan tidak dapat dibalik sembarangan. Jika komputer belum dinyalakan tetapi pengguna mencoba membuka aplikasi, maka proses tersebut tidak dapat dilakukan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam dunia informatika, sequence menjadi dasar penting dalam penyusunan algoritma karena membantu proses berpikir secara sistematis dan logis. Dengan memahami sequence, siswa dapat belajar bagaimana menyusun langkah penyelesaian masalah secara runtut dan terstruktur. Kemampuan ini sangat penting dalam pemrograman karena komputer bekerja berdasarkan instruksi yang diberikan secara berurutan."
+            }
+          ]
+        },
+        {
+          "title": "4. Alur & Kesimpulan",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Menganalisis Alur Program"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Sequence juga membantu programmer membuat program yang lebih mudah dipahami. Ketika langkah-langkah program ditulis secara runtut, maka alur program menjadi lebih jelas dan mudah dianalisis. Sebaliknya, jika instruksi ditulis secara acak atau tidak beraturan, maka program menjadi sulit dipahami dan berpotensi menghasilkan kesalahan. Dalam penulisan algoritma, sequence dapat dibuat menggunakan beberapa bentuk, seperti narasi biasa, pseudocode, maupun flowchart. Pada flowchart, sequence biasanya digambarkan menggunakan simbol proses yang dihubungkan oleh garis alur secara berurutan dari atas ke bawah. Hal ini membantu programmer melihat alur kerja program secara visual."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Berikut gambaran sederhana alur sequence saat login media sosial:"
+            },
+            {
+              "key": "paragraph",
+              "text": "<align=center>Membuka Aplikasi → Memasukkan Username → Memasukkan Password → Login"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam perkembangan teknologi modern, konsep sequence digunakan hampir di semua sistem komputer. Ketika pengguna membuka aplikasi, menjalankan program, atau menggunakan perangkat digital lainnya, komputer sebenarnya sedang menjalankan serangkaian instruksi sequence secara terus-menerus. Oleh karena itu, pemahaman mengenai sequence menjadi dasar penting sebelum mempelajari percabangan dan perulangan yang lebih kompleks."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dari seluruh pembahasan tersebut dapat dipahami bahwa sequence merupakan struktur dasar algoritma yang menjalankan langkah-langkah secara berurutan. Sequence membantu manusia maupun komputer menyelesaikan pekerjaan secara sistematis dan teratur. Dengan memahami konsep sequence, siswa dapat belajar berpikir lebih logis dan terstruktur dalam menyusun solusi suatu masalah, baik dalam kehidupan sehari-hari maupun dalam dunia pemrograman komputer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titile": "Percabangan dan perulangan",
+      "object": [
+        {
+          "title": "1. Pengenalan Percabangan",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Struktur Logika Program"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam dunia algoritma dan pemrograman, terdapat struktur logika yang digunakan untuk mengatur jalannya suatu program. Setelah mempelajari <i>sequence</i> atau urutan langkah, tahap berikutnya adalah memahami percabangan dan perulangan. Kedua konsep ini sangat penting karena hampir semua program komputer modern menggunakan percabangan dan perulangan untuk menjalankan berbagai proses secara otomatis dan lebih efisien."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em><b>Percabangan</b> adalah struktur algoritma yang digunakan untuk memilih tindakan berdasarkan kondisi tertentu. Dalam kehidupan sehari-hari, manusia sering mengambil keputusan berdasarkan situasi yang terjadi. Misalnya ketika seseorang merasa lapar, maka ia akan makan. Jika hujan turun, maka seseorang mungkin membawa payung. Jika baterai <i>handphone</i> habis, maka pengguna akan mengisi daya baterai tersebut. Semua contoh tersebut merupakan bentuk sederhana dari percabangan karena terdapat kondisi tertentu yang menentukan tindakan yang akan dilakukan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam pemrograman komputer, percabangan digunakan agar program dapat mengambil keputusan secara otomatis. Program akan memeriksa suatu kondisi terlebih dahulu, kemudian menentukan tindakan yang sesuai berdasarkan hasil pemeriksaan tersebut. Jika kondisi bernilai benar, maka program menjalankan perintah tertentu. Namun jika kondisi tidak terpenuhi, maka program dapat menjalankan perintah lain atau bahkan melewati proses tersebut."
+            }
+          ]
+        },
+        {
+          "title": "2. Contoh Percabangan",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Mengambil Keputusan"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Sebagai contoh, ketika seseorang <i>login</i> ke media sosial, sistem akan memeriksa apakah <i>username</i> dan <i>password</i> yang dimasukkan benar atau salah. Jika data benar, maka pengguna berhasil masuk ke akun. Namun jika data salah, maka sistem akan menampilkan pesan kesalahan. Proses tersebut menunjukkan bagaimana percabangan bekerja dalam sistem komputer untuk menentukan tindakan berdasarkan kondisi tertentu."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam kehidupan sehari-hari, percabangan sebenarnya sangat sering digunakan tanpa disadari. Ketika seseorang ingin pergi ke luar rumah, ia biasanya melihat kondisi cuaca terlebih dahulu. Jika cuaca hujan maka membawa payung, sedangkan jika cuaca cerah maka tidak perlu membawa payung. Proses pengambilan keputusan berdasarkan kondisi inilah yang menjadi inti dari konsep percabangan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam algoritma, percabangan biasanya menggunakan kata seperti: <b>jika</b>, <b>maka</b>, dan <b>selain itu</b>. Konsep ini membantu komputer menentukan langkah yang harus dijalankan sesuai situasi yang terjadi. Tanpa percabangan, program hanya akan menjalankan instruksi secara lurus tanpa dapat mengambil keputusan tertentu."
+            }
+          ]
+        },
+        {
+          "title": "3. Konsep Perulangan (Looping)",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Menjalankan Instruksi Berulang"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain percabangan, terdapat juga konsep <b>perulangan</b> atau <i>looping</i>. Perulangan adalah proses menjalankan suatu instruksi secara berulang-ulang hingga kondisi tertentu terpenuhi. Dalam kehidupan sehari-hari, manusia sering melakukan aktivitas yang berulang, seperti berjalan beberapa langkah, menulis nama berkali-kali, atau menghitung angka dari satu hingga sepuluh. Semua aktivitas tersebut merupakan bentuk sederhana dari perulangan."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam pemrograman komputer, perulangan digunakan untuk menghemat penulisan kode dan meningkatkan efisiensi program. Tanpa perulangan, <i>programmer</i> harus menulis instruksi yang sama berulang kali secara manual. Dengan adanya <i>looping</i>, komputer dapat menjalankan satu instruksi berkali-kali secara otomatis sesuai kebutuhan. Sebagai contoh, jika <i>programmer</i> ingin menampilkan angka 1 sampai 100, maka akan sangat tidak efisien jika harus menulis perintah cetak angka satu per satu. Oleh karena itu, digunakan perulangan agar komputer dapat menjalankan proses secara otomatis hingga mencapai batas tertentu."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam pemrograman terdapat beberapa jenis perulangan, di antaranya adalah perulangan <i>for</i> dan <i>while</i>. Perulangan <i>for</i> biasanya digunakan ketika jumlah pengulangan sudah diketahui sebelumnya. Misalnya menampilkan angka 1 sampai 10 atau mengulang proses sebanyak lima kali. Sementara itu, perulangan <i>while</i> digunakan ketika jumlah pengulangan belum diketahui secara pasti dan bergantung pada suatu kondisi tertentu. Sebagai contoh, perulangan <i>while</i> dapat digunakan pada sistem <i>login</i> akun. Program akan terus meminta pengguna memasukkan <i>password</i> selama <i>password</i> yang dimasukkan masih salah. Ketika <i>password</i> benar, maka proses perulangan berhenti dan pengguna berhasil masuk ke sistem."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Berikut gambaran sederhana konsep perulangan:"
+            },
+            {
+              "key": "paragraph",
+              "text": "<align=center><b>Mulai → Perintah Dijalankan → Cek Kondisi → Ulangi Jika Benar</b></align>"
+            }
+          ]
+        },
+        {
+          "title": "4. Kombinasi & Kesimpulan",
+          "isi": [
+            {
+              "key": "title",
+              "text": "Membangun Program yang Efisien"
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Percabangan dan perulangan sering digunakan secara bersamaan dalam sebuah program komputer. Misalnya dalam sistem pengolahan nilai siswa. Program dapat menggunakan perulangan untuk memeriksa data seluruh siswa satu per satu. Setelah itu, program menggunakan percabangan untuk menentukan apakah siswa lulus atau tidak berdasarkan nilai yang diperoleh. Dengan menggabungkan kedua konsep tersebut, program dapat bekerja secara otomatis dan lebih efisien."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Dalam kehidupan modern, percabangan dan perulangan digunakan hampir di semua aplikasi digital. Media sosial menggunakan percabangan untuk menentukan tampilan berdasarkan akun pengguna. <i>Game</i> menggunakan perulangan untuk menjalankan animasi secara terus-menerus. Mesin ATM menggunakan percabangan untuk memeriksa PIN pengguna dan menggunakan perulangan ketika pengguna salah memasukkan PIN beberapa kali."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Pemahaman tentang percabangan dan perulangan sangat penting karena kedua konsep ini menjadi dasar utama logika pemrograman. Dengan memahami cara kerja percabangan dan perulangan, siswa dapat belajar bagaimana komputer mengambil keputusan dan menjalankan proses secara otomatis. Hal ini juga membantu siswa mengembangkan kemampuan berpikir logis, sistematis, dan terstruktur dalam menyelesaikan masalah."
+            },
+            {
+              "key": "paragraph",
+              "text": "<space=2em>Selain digunakan dalam pemrograman, konsep percabangan dan perulangan juga melatih kemampuan berpikir komputasional atau <i>computational thinking</i>. Siswa belajar bagaimana menentukan kondisi tertentu, memilih solusi yang tepat, dan mengulang proses hingga tujuan tercapai. Kemampuan ini sangat berguna tidak hanya dalam dunia informatika, tetapi juga dalam kehidupan sehari-hari."
             }
           ]
         }
