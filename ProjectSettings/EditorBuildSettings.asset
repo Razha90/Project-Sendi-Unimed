@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/soal.unity
     guid: 0b2076285d877094bbd0351da6218910
+  - enabled: 1
+    path: Assets/Scenes/cp-atp.unity
+    guid: fc80048354c0f04499454e0209a288f5
+  - enabled: 1
+    path: Assets/Scenes/petunjuk.unity
+    guid: 63c85bd57092a1747b23e9c59db2eb95
+  - enabled: 1
+    path: Assets/Scenes/game.unity
+    guid: 43d57e452eb9a6e46ac7b137a1a2366a
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}

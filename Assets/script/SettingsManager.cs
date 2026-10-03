@@ -32,15 +32,17 @@ public class SettingsManager : MonoBehaviour
 
     private void Awake()
     {
-        // Sistem Singleton: Menjamin hanya ada 1 SettingsManager di seluruh game
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Agar GlobalUI tidak hancur saat pindah scene
+            // Harus DontDestroyOnLoad pada ROOT object (GlobalManagers), bukan child (GlobalUI)
+            // Di Unity 6, DontDestroyOnLoad pada non-root tidak bekerja
+            DontDestroyOnLoad(transform.root.gameObject);
         }
         else
         {
-            Destroy(gameObject);
+            // Hancurkan root duplicate, bukan hanya child ini
+            Destroy(transform.root.gameObject);
         }
     }
 
@@ -99,30 +101,28 @@ public class SettingsManager : MonoBehaviour
 // Fungsi untuk Slider Music
     public void SetMusicVolume(float value)
     {
-        // Pastikan nama "MusicVol" sama dengan yang ada di Exposed Parameters Mixer
-        mainMixer.SetFloat("MusicVol", Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20);
+        if (mainMixer != null)
+            mainMixer.SetFloat("MusicVol", Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20);
         UpdateResetButtonsUI();
     }
 
-    // Fungsi untuk mematikan/menghidupkan musik sementara (ducking)
     public void MuteMusic(bool isMuted)
     {
+        if (mainMixer == null) return;
         if (isMuted)
         {
-            mainMixer.SetFloat("MusicVol", -80f); // -80dB artinya mute/sunyi
+            mainMixer.SetFloat("MusicVol", -80f);
         }
         else
         {
-            // Kembalikan ke volume yang sesuai dengan posisi slider saat ini
-            SetMusicVolume(musicSlider.value);
+            if (musicSlider != null) SetMusicVolume(musicSlider.value);
         }
     }
 
-    // Fungsi untuk Slider SFX
     public void SetSFXVolume(float value)
     {
-        // Pastikan nama "SFXVol" sama dengan yang ada di Exposed Parameters Mixer
-        mainMixer.SetFloat("SFXVol", Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20);
+        if (mainMixer != null)
+            mainMixer.SetFloat("SFXVol", Mathf.Log10(Mathf.Clamp(value, 0.0001f, 1f)) * 20);
         UpdateResetButtonsUI();
     }
 
@@ -155,18 +155,11 @@ public class SettingsManager : MonoBehaviour
         SetSFXVolume(defaultVolume);
     }
 
-private void UpdateResetButtonsUI()
+    private void UpdateResetButtonsUI()
     {
-        if (resetMusicBtn != null)
-        {
-            // Tampil jika nilai music slider bukan 0.5
+        if (resetMusicBtn != null && musicSlider != null)
             resetMusicBtn.SetActive(Mathf.Abs(musicSlider.value - defaultVolume) > 0.01f);
-        }
-
-        if (resetSfxBtn != null)
-        {
-            // Tampil jika nilai sfx slider bukan 0.5
+        if (resetSfxBtn != null && sfxSlider != null)
             resetSfxBtn.SetActive(Mathf.Abs(sfxSlider.value - defaultVolume) > 0.01f);
-        }
     }
 }

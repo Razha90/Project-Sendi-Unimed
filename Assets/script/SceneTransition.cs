@@ -10,7 +10,6 @@ public class SceneTransition : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton pattern agar hanya ada satu ObjectLoader
         if (Instance == null)
         {
             Instance = this;
@@ -19,7 +18,14 @@ public class SceneTransition : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
+    }
+
+    private void Start()
+    {
+        if (animator != null)
+            animator.SetTrigger("EndTransition");
     }
 
     public void LoadScene(string sceneName)
@@ -29,17 +35,14 @@ public class SceneTransition : MonoBehaviour
 
     IEnumerator Transition(string sceneName)
     {
-        // 1. Jalankan animasi tutup (End)
-        animator.SetTrigger("StartTransition");
+        if (animator != null)
+            animator.SetTrigger("StartTransition");
 
-        // 2. Tunggu sampai animasi selesai
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(animator != null ? transitionTime : 0f);
 
-        // 3. Pindah Scene
         SceneManager.LoadScene(sceneName);
 
-        // 4. Jalankan animasi buka (Start)
-        // Pastikan di Animator, state default adalah animasi "Buka"
-        animator.SetTrigger("EndTransition");
+        if (animator != null)
+            animator.SetTrigger("EndTransition");
     }
 }

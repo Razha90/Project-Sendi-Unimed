@@ -1,0 +1,144 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Gerbang AND",
+      "description": "Nyalakan KEDUA input agar lampu menyala!",
+      "hint": "AND: output = 1 hanya jika A=1 DAN B=1",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": false, "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "AND", "inputs": ["A", "B"], "column": 1 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g1", "target": true }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gerbang OR",
+      "description": "Nyalakan SALAH SATU input agar lampu menyala!",
+      "hint": "OR: output = 1 jika A=1 ATAU B=1 (atau keduanya)",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": false, "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "OR", "inputs": ["A", "B"], "column": 1 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g1", "target": true }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gerbang NOT",
+      "description": "MATIKAN input A agar lampu menyala!",
+      "hint": "NOT: output = 1 hanya jika A=0 (membalik nilai input)",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": true, "row": 0 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "NOT", "inputs": ["A"], "column": 1 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g1", "target": true }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "NOT + AND",
+      "description": "Matikan A dan nyalakan B agar lampu menyala!",
+      "hint": "NOT membalik A dulu, baru AND memeriksa kedua nilai",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": true, "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "NOT", "inputs": ["A"], "column": 1 },
+        { "id": "g2", "type": "AND", "inputs": ["g1", "B"], "column": 2 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g2", "target": true }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "AND + OR",
+      "description": "Nyalakan C, atau nyalakan A dan B bersama!",
+      "hint": "AND(A,B) memberi hasil ke OR; C langsung ke OR",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": false, "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 },
+        { "id": "C", "label": "C", "initial": false, "row": 2 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "AND", "inputs": ["A", "B"], "column": 1 },
+        { "id": "g2", "type": "OR",  "inputs": ["g1", "C"], "column": 2 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g2", "target": true }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "OR + AND",
+      "description": "Nyalakan C dan salah satu dari A atau B!",
+      "hint": "OR(A,B) harus menghasilkan 1, lalu AND membutuhkan C=1 juga",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": false, "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 },
+        { "id": "C", "label": "C", "initial": false, "row": 2 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "OR",  "inputs": ["A", "B"], "column": 1 },
+        { "id": "g2", "type": "AND", "inputs": ["g1", "C"], "column": 2 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g2", "target": true }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "AND + AND + OR",
+      "description": "Nyalakan A&B bersama, ATAU nyalakan C&D bersama!",
+      "hint": "Dua gerbang AND mengumpan satu gerbang OR",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": false, "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 },
+        { "id": "C", "label": "C", "initial": false, "row": 2 },
+        { "id": "D", "label": "D", "initial": false, "row": 3 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "AND", "inputs": ["A", "B"], "column": 1 },
+        { "id": "g2", "type": "AND", "inputs": ["C", "D"], "column": 1 },
+        { "id": "g3", "type": "OR",  "inputs": ["g1", "g2"], "column": 2 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g3", "target": true }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "NOT + AND + OR",
+      "description": "Ada beberapa cara untuk menyalakan lampu. Temukan salah satunya!",
+      "hint": "Coba: matikan A, ATAU nyalakan B&C, ATAU nyalakan D",
+      "inputs": [
+        { "id": "A", "label": "A", "initial": true,  "row": 0 },
+        { "id": "B", "label": "B", "initial": false, "row": 1 },
+        { "id": "C", "label": "C", "initial": false, "row": 2 },
+        { "id": "D", "label": "D", "initial": false, "row": 3 }
+      ],
+      "gates": [
+        { "id": "g1", "type": "NOT", "inputs": ["A"],       "column": 1 },
+        { "id": "g2", "type": "AND", "inputs": ["B", "C"],  "column": 1 },
+        { "id": "g3", "type": "OR",  "inputs": ["g1", "g2", "D"], "column": 2 }
+      ],
+      "outputs": [
+        { "id": "out1", "source": "g3", "target": true }
+      ]
+    }
+  ]
+}

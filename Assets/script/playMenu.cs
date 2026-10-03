@@ -6,23 +6,21 @@ public class playMenu : MonoBehaviour
 {
     public void KlikTombolPause()
     {
-        SettingsManager.Instance.BukaTutupSettings();
+        if (SettingsManager.Instance != null)
+            SettingsManager.Instance.BukaTutupSettings();
     }
 
     public void TombolPlaySound()
     {
-        SettingsManager.Instance.PlayClickSound();
+        if (SettingsManager.Instance != null)
+            SettingsManager.Instance.PlayClickSound();
     }
 
     public void JalankanAnimasi(Animator targetAnimator)
     {
         if (targetAnimator != null)
-        {
             targetAnimator.SetTrigger("start");
-        }
-        else 
-        {
+        else
             Debug.LogWarning("Animator target tidak ditemukan!");
-        }
     }
 }
